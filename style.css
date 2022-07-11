@@ -1,0 +1,123 @@
+.navlink{
+  margin: 14px;
+}
+.caremel p{
+  margin:0;
+}
+.caremel img{
+  height:40px;
+}
+.nav-item{
+  margin-left:30px;
+}
+body{
+  /* overflow: hidden; */
+}
+
+/* how would you like to pay */
+.topay{
+  background: linear-gradient(180deg, #FFE259 0%, #FFA751 100%);
+}
+.topay .gone{
+  position: absolute;
+  top:12%;
+  left:20%;
+  font-size: 1.2rem;
+}
+.topay img{
+  margin-left:10px;
+  max-width:141%;
+  margin-top:30px;
+}
+.progress-container{
+  display:flex;
+  justify-content: space-around;
+  position: relative;
+  margin-right:30%;
+  text-align:center !important;
+  margin-top:10%;
+}
+.progress-container::before{
+  content: '';
+  background-color: #174AAD;
+  position: absolute;
+  top:19%;
+  left:28%;
+  height:1px;
+  width:45%;
+  transform: translateY(-50%);
+  transition: 0.4s ease;
+  z-index:-2;
+}
+.preservation{
+  background-color: #174AAD;
+  position: absolute;
+  top:19%;
+  left:28%;
+  height:4px;
+  width:0%;
+  transform: translateY(-50%);
+  transition:  width 2s ease;
+  z-index:-1;
+
+}
+.preservation.active {
+  width: 45%;
+}
+.circle{
+  background-color:#fff;
+  color:#174AAD;
+  border-radius: 50%;
+  height: 30px;
+  width:30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #174AAD;
+  margin-left:45px;
+  transition: .4s ease;
+}
+.firm.active p{
+  color:#174AAD;
+}
+.firm.active .circle {
+  background-color: #174AAD;
+  color:#fff;
+}
+.input{
+  width:67%;
+  margin-bottom:10px;
+}
+.input:focus{
+  outline:none;
+  box-shadow: none;
+}
+.power{
+  margin-left:62px;
+  margin-top:66px;
+}
+
+.confirm{
+  margin-right:30%;
+}
+.confirm a{
+  background: #174AAD;
+  border-radius: unset;
+} 
+.btn{
+  width:35%;
+}
+.btn:focus{
+  outline:0;
+  box-shadow: none;
+}
+.btn:active{
+  transform: scale(0.98);
+}
+body{
+  overflow-x: hidden;
+}
+.atm:focus{
+  outline:none;
+  box-shadow: none;
+}
